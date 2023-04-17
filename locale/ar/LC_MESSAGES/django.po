@@ -1,0 +1,385 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-17 22:26+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: .\frontend\templates\cards-comparison.html:5
+msgid "Popular Comparisons"
+msgstr "المقارنات الشائعة"
+
+#: .\frontend\templates\cards-comparison.html:7
+msgid ""
+"Find out which of the 2 GPUs performs better, view a side-by-side "
+"specification comparison."
+msgstr ""
+"اعرف أي من بين البطاقات الرسومية الاثنتين أفضل أداء، وشاهد المقارنة الجانبية للمواصفات."
+
+#: .\frontend\templates\cards-comparison.html:17
+#: .\frontend\templates\cards-comparison.html:38
+#: .\frontend\templates\cards-comparison.html:60
+#: .\frontend\templates\cards-comparison.html:80
+#: .\frontend\templates\compare.html:67 .\frontend\templates\index.html:83
+msgid "VS"
+msgstr "مقابل"
+
+#: .\frontend\templates\compare.html:28 .\frontend\templates\index.html:52
+msgid "Compare Two GPUs"
+msgstr "مقارنة بين بطاقتي رسومات"
+
+#: .\frontend\templates\compare.html:36 .\frontend\templates\compare.html:74
+#: .\frontend\templates\index.html:166
+msgid "Year"
+msgstr "السنة"
+
+#: .\frontend\templates\compare.html:39 .\frontend\templates\compare.html:77
+#: .\frontend\templates\index.html:169 .\frontend\templates\info.html:61
+msgid "Buy Now"
+msgstr "اشترِ الآن"
+
+#: .\frontend\templates\compare.html:48 .\frontend\templates\compare.html:86
+#: .\frontend\templates\index.html:65 .\frontend\templates\index.html:95
+#: .\frontend\templates\info.html:39
+msgid "Changement"
+msgstr "التغيير"
+
+#: .\frontend\templates\compare.html:102
+msgid "Comparer"
+msgstr "مقارنة"
+
+#: .\frontend\templates\compare.html:116 .\frontend\templates\compare.html:226
+msgid "Winner"
+msgstr "الفائز"
+
+#: .\frontend\templates\compare.html:126 .\frontend\templates\compare.html:236
+#: .\frontend\templates\index.html:143 .\frontend\templates\info.html:77
+msgid "Release Date"
+msgstr "تاريخ الإصدار"
+
+#: .\frontend\templates\compare.html:134 .\frontend\templates\compare.html:244
+#: .\frontend\templates\info.html:81
+msgid "Generation"
+msgstr "الجيل"
+
+#: .\frontend\templates\compare.html:138 .\frontend\templates\compare.html:248
+msgid "price"
+msgstr "السعر"
+
+#: .\frontend\templates\compare.html:142 .\frontend\templates\compare.html:252
+msgid "Power Connectors"
+msgstr "موصلات الطاقة"
+
+#: .\frontend\templates\compare.html:146 .\frontend\templates\compare.html:256
+#: .\frontend\templates\info.html:100
+msgid "Memory Size"
+msgstr "حجم الذاكرة"
+
+#: .\frontend\templates\compare.html:155 .\frontend\templates\compare.html:264
+msgid "Bandwidth"
+msgstr "عرض النطاق الترددي"
+
+#: .\frontend\templates\compare.html:166 .\frontend\templates\compare.html:274
+#: .\frontend\templates\info.html:108
+msgid "Memory Bus"
+msgstr "حافلة الذاكرة"
+
+#: .\frontend\templates\compare.html:174 .\frontend\templates\compare.html:282
+msgid "Core Clock Speed"
+msgstr "سرعة ساعة النواة"
+
+#: .\frontend\templates\compare.html:182 .\frontend\templates\compare.html:290
+#: .\frontend\templates\info.html:127
+msgid "Boost Clock Speed"
+msgstr "سرعة ساعة التسريع"
+
+#: .\frontend\templates\compare.html:190 .\frontend\templates\compare.html:298
+msgid "Memory Clock Speed"
+msgstr "سرعة ساعة الذاكرة"
+
+#: .\frontend\templates\compare.html:209 .\frontend\templates\compare.html:314
+msgid "Chip lithography"
+msgstr "النحت على الرقاقة"
+
+#: .\frontend\templates\compare.html:330 .\frontend\templates\info.html:158
+msgid "Benchmark performance"
+msgstr "أداء البنكمارك"
+
+#: .\frontend\templates\compare.html:377 .\frontend\templates\info.html:204
+msgid "Gaming"
+msgstr "الألعاب"
+
+#: .\frontend\templates\compare.html:382 .\frontend\templates\compare.html:409
+#: .\frontend\templates\info.html:208
+msgid "Average FPS"
+msgstr "متوسط FPS"
+
+#: .\frontend\templates\compare.html:450 .\frontend\templates\info.html:236
+msgid "Popular Games"
+msgstr "ألعاب شعبية"
+
+#: .\frontend\templates\compare.html:479 .\frontend\templates\info.html:260
+msgid "Choose a Game"
+msgstr "اختر لعبة"
+
+#: .\frontend\templates\compare.html:497 .\frontend\templates\info.html:278
+msgid "Official system requirements"
+msgstr "متطلبات النظام الرسمية"
+
+#: .\frontend\templates\compare.html:507
+msgid "FPS benchmarks"
+msgstr "مقاييس FPS"
+
+#: .\frontend\templates\compare.html:528 .\frontend\templates\compare.html:544
+msgid "Competitors of"
+msgstr "منافسو"
+
+#: .\frontend\templates\compare.html:528 .\frontend\templates\compare.html:544
+msgid "by AMD"
+msgstr "بواسطة AMD"
+
+#: .\frontend\templates\compare.html:531 .\frontend\templates\compare.html:547
+msgid "Here are some closest AMD rivals to"
+msgstr "فيما يلي بعض المنافسين الأقرب لـ AMD لـ"
+
+#: .\frontend\templates\compare.html:647
+msgid "Developer"
+msgstr "المطور"
+
+#: .\frontend\templates\compare.html:647
+msgid "Publisher"
+msgstr "الناشر"
+
+#: .\frontend\templates\compare.html:647
+msgid "Release date:"
+msgstr "تاريخ الإصدار:"
+
+#: .\frontend\templates\compare.html:647
+msgid "Metacritic rating"
+msgstr "تقييم ميتاكريتيك"
+
+#: .\frontend\templates\compare.html:647
+msgid "Our user rating"
+msgstr "تقييم المستخدمين لدينا"
+
+#: .\frontend\templates\footer.html:6
+msgid "Copyright © CurrentCopyrightYear. Created By"
+msgstr "حقوق النشر © سنة الحقوق الحالية. تم إنشاء الموقع بواسطة"
+
+#: .\frontend\templates\footer.html:11
+msgid "About"
+msgstr "حول الموقع"
+
+#: .\frontend\templates\footer.html:12
+msgid "Privacy Policy"
+msgstr "سياسة الخصوصية"
+
+#: .\frontend\templates\footer.html:13
+msgid "Contact"
+msgstr "اتصل بنا"
+
+#: .\frontend\templates\index.html:114
+msgid "COMPARER"
+msgstr "مقارنة البطاقات الرسومية"
+
+#: .\frontend\templates\index.html:136
+msgid "Brand"
+msgstr "العلامة التجارية"
+
+#: .\frontend\templates\index.html:137
+msgid "Name"
+msgstr "الاسم"
+
+#: .\frontend\templates\index.html:140
+msgid "Performance"
+msgstr "الأداء"
+
+#: .\frontend\templates\index.html:146
+msgid "Price"
+msgstr "السعر"
+
+#: .\frontend\templates\index.html:193
+msgid "Add Graphics card from table"
+msgstr "إضافة بطاقة رسومية من الجدول"
+
+#: .\frontend\templates\index.html:211 .\frontend\templates\info.html:51
+msgid "Compare"
+msgstr "مقارنة"
+
+#: .\frontend\templates\info.html:75
+msgid "General"
+msgstr "عام"
+
+#: .\frontend\templates\info.html:85
+msgid "Market segment"
+msgstr "شريحة السوق"
+
+#: .\frontend\templates\info.html:89
+msgid "GPU code name"
+msgstr "اسم الشفرة لوحدة معالجة الرسوميات (GPU)"
+
+#: .\frontend\templates\info.html:93
+msgid "Architecture"
+msgstr "البنية التحتية"
+
+#: .\frontend\templates\info.html:98
+msgid "Memory"
+msgstr "الذاكرة"
+
+#: .\frontend\templates\info.html:104
+msgid "Memory Type"
+msgstr "نوع الذاكرة"
+
+#: .\frontend\templates\info.html:112
+msgid "Memory Bandwidth"
+msgstr "عرض النطاق الترددي للذاكرة"
+
+#: .\frontend\templates\info.html:116
+msgid "Memory clock speed"
+msgstr "سرعة ساعة الذاكرة"
+
+#: .\frontend\templates\info.html:121
+msgid "Technical specs"
+msgstr "المواصفات الفنية"
+
+#: .\frontend\templates\info.html:123
+msgid "Pipelines / CUDA cores"
+msgstr "أنابيب / نوى CUDA"
+
+#: .\frontend\templates\info.html:131
+msgid "Core clock speed"
+msgstr "سرعة تشغيل النواة"
+
+#: .\frontend\templates\info.html:135
+msgid "Thermal design power (TDP)"
+msgstr "الطاقة الحرارية المصممة (TDP)"
+
+#: .\frontend\templates\info.html:139
+msgid "Manufacturing process technology"
+msgstr "تقنية عملية التصنيع"
+
+#: .\frontend\templates\info.html:144
+msgid "Number of transistors"
+msgstr "عدد الترانزستورات"
+
+#: .\frontend\templates\info.html:148
+msgid "Texture Fill rate"
+msgstr "معدل ملء الأسطح"
+
+#: .\frontend\templates\info.html:290
+msgid "Relative perfomance"
+msgstr "الأداء النسبي"
+
+#: .\frontend\templates\info.html:294
+msgid "performance compare to nearest competitors"
+msgstr "مقارنة الأداء بأقرب المنافسين"
+
+#: .\frontend\templates\info.html:309
+msgid " AND equivalent"
+msgstr "المكافئ AND"
+
+#: .\frontend\templates\info.html:352
+msgid "GPU processors"
+msgstr "معالجات الرسومات"
+
+#: .\frontend\templates\info.html:375
+msgid "Recommended processors"
+msgstr "المعالجات الموصى بها"
+
+#: .\frontend\templates\nav.html:40
+msgid "KNOWLEDGE CENTER"
+msgstr "مركز المعرفة"
+
+#: .\frontend\templates\nav.html:43
+msgid "GENERAL QUERIES"
+msgstr "الاستفسارات العامة"
+
+#: .\frontend\templates\nav.html:47
+msgid "GRAPHIC CARDS"
+msgstr "بطاقات الرسومات"
+
+#: .\frontend\views.py:14
+msgid "this is some random text"
+msgstr ""
+
+#: .\glubble_backend\settings.py:152
+msgid "English"
+msgstr ""
+
+#: .\glubble_backend\settings.py:153
+msgid "Arabic"
+msgstr ""
+
+#: .\glubble_backend\settings.py:154
+msgid "German"
+msgstr ""
+
+#: .\glubble_backend\settings.py:155
+msgid "Spanish"
+msgstr ""
+
+#: .\glubble_backend\settings.py:156
+msgid "French"
+msgstr ""
+
+#: .\glubble_backend\settings.py:157
+msgid "Hindi"
+msgstr ""
+
+#: .\glubble_backend\settings.py:158
+msgid "Indonesian"
+msgstr ""
+
+#: .\glubble_backend\settings.py:159
+msgid "Italian"
+msgstr ""
+
+#: .\glubble_backend\settings.py:160
+msgid "Japanese"
+msgstr ""
+
+#: .\glubble_backend\settings.py:161
+msgid "Korean"
+msgstr ""
+
+#: .\glubble_backend\settings.py:162
+msgid "Polish"
+msgstr ""
+
+#: .\glubble_backend\settings.py:163
+msgid "Portuguese"
+msgstr ""
+
+#: .\glubble_backend\settings.py:164
+msgid "Russian"
+msgstr ""
+
+#: .\glubble_backend\settings.py:165
+msgid "Turkish"
+msgstr ""
+
+#: .\glubble_backend\settings.py:166
+msgid "Chinese (Simplified)"
+msgstr ""
+
+#: .\glubble_backend\settings.py:167
+msgid "Chinese (Traditional)"
+msgstr ""
+
+#: .\glubble_backend\urls.py:47
+msgid "admin/"
+msgstr ""

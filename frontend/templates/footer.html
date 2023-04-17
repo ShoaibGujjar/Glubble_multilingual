@@ -1,0 +1,27 @@
+<footer>{% load i18n %}
+    <div class="footer-bottom py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6" id="copyright">
+                    <div>{% trans "Copyright © CurrentCopyrightYear. Created By" %}
+                        <a href="index.php">Glubble</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-right">
+                    <a href="#">{% trans "About" %}</a>
+                    <a href="#">{% trans "Privacy Policy" %}</a>
+                    <a href="#">{% trans "Contact" %}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var dateNow = new Date();
+    var intYear = dateNow.getFullYear();
+    $('#copyright').each(function() {
+        var text = $(this).text();
+        $(this).text(text.replace('CurrentCopyrightYear', intYear));
+    });
+</script>

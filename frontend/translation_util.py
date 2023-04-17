@@ -8,7 +8,7 @@ data = {
             "zh": "它是 Passmark PerformanceTest 套件的一部分，可能是最常见的基准测试。该基准测试评估了不同负载下的图形卡。它提供了四个基准测试，每个用于 Direct3D 版本 9、11 和 12，最后一个用于 4K 分辨率。还有其他一些与 DirectCompute 相关的测试。",
             "hi": "यह Passmark PerformanceTest सुइट का हिस्सा है और शायद सबसे आम बेंचमार्क है। यह बेंचमार्क विभिन्न भारों के तहत ग्राफिक कार्ड का मूल्यांकन करता है। यह चार बेंचमार्क प्रदान करता है, प्रत्येक Direct3D संस्करण 9, 11 और 12 के लिए, 4K रिज़ॉल्यूशन में अंतिम के साथ। DirectCompute से संबंधित कुछ अन्य परीक्षण भी हैं।"
         },
-
+ 
         "3DMark Vantage Performance": {
             "en": "3DMark Vantage, an obsolete DirectX 10 benchmark that uses 1280x1024 screen resolution, is called. The 2DMark Vantage taxes the graphics card by showing two scenes. One shows a girl fleeing from a militarized base within a cave. Another depicts a fleet of spaceships attacking a planet defenseless. In April 2017, it was removed. Instead, Time Spy benchmark should be used.",
             "de": "3DMark Vantage wird aufgerufen, ein veralteter DirectX-10-Benchmark, der eine Bildschirmauflösung von 1280 x 1024 verwendet. Der 2DMark Vantage fordert die Grafikkarte, indem er zwei Szenen zeigt. Eines zeigt ein Mädchen, das von einer militarisierten Basis in einer Höhle flieht. Ein anderer zeigt eine Flotte von Raumschiffen, die einen Planeten wehrlos angreifen. Im April 2017 wurde es entfernt. Stattdessen sollte der Time Spy-Benchmark verwendet werden.",

@@ -15,11 +15,13 @@ Including another URLconf
 """
 from django.conf import settings
 from django.conf.urls.static import static
-
+from django.conf.urls.i18n import i18n_patterns
+from django.urls import include, path
+from django.utils.translation import gettext_lazy as _
 from django.contrib import admin
-from django.urls import path, include
+from django.utils.translation import gettext
 from django.shortcuts import redirect
-
+# from django.conf.urls import urlpatterns
 from django.contrib.sitemaps import GenericSitemap # new
 from django.contrib.sitemaps.views import sitemap # new
 from django.contrib.sitemaps.views import sitemap
@@ -37,9 +39,14 @@ sitemaps = {
     # 'static':StaticSitemap #add StaticSitemap to the dictionary
 }
 
-urlpatterns = [
-    path('', lambda req: redirect('/graphics-cards/en/')),
+urlpatterns = []
+
+urlpatterns += i18n_patterns(
+    path('', lambda req: redirect('/graphics-cards')),
     path('', include('frontend.urls')),
-    path('admin/', admin.site.urls),
-    path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    path(_("admin/"), admin.site.urls, name="admin"),
+)
+
+# urlpatterns = [
+#     path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),
+# ]+static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

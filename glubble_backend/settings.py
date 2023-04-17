@@ -14,7 +14,7 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path("__file__").resolve().parent
-
+from django.utils.translation import gettext_lazy as _
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
     # 'django.contrib.sites', # new
     'django.contrib.sitemaps', # new 
     'core.apps.CoreConfig',
@@ -59,6 +58,7 @@ INSTALLED_APPS += DJANGO_APPS + EXTERNAL_APPS
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -76,6 +76,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
+                'django.template.context_processors.i18n',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
@@ -126,6 +127,8 @@ TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
+USE_L10N = True
+
 USE_TZ = True
 
 
@@ -144,3 +147,28 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, '/static'),
 ]
+
+LANGUAGES = (
+    ('en', _('English')),
+    ('ar', _('Arabic')),
+    ('de', _('German')),
+    ('es', _('Spanish')),
+    ('fr', _('French')),
+    ('hi', _('Hindi')),
+    ('id', _('Indonesian')),
+    ('it', _('Italian')),
+    ('ja', _('Japanese')),
+    ('ko', _('Korean')),
+    ('pl', _('Polish')),
+    ('pt', _('Portuguese')),
+    ('ru', _('Russian')),
+    ('tr', _('Turkish')),
+    ('zh', _('Chinese (Simplified)')),
+    ('zh-tw', _('Chinese (Traditional)'))
+)
+
+
+
+# Contains the path list where Django should look into for django.po files for all supported languages
+SITE_ROOT = os.path.dirname(os.path.realpath(__name__))
+LOCALE_PATHS = ( os.path.join(SITE_ROOT, 'locale'), )
