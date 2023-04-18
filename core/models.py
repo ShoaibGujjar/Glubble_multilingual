@@ -237,7 +237,7 @@ class GPUSpecs(models.Model):
 
     def benchmark_performance(self, lang='en'):
         if self.tests:
-            return [dict(name=list(data.keys())[0], score=list(data.values())[0], text=get_translated_test_description(list(data.keys())[1], lang)) for data in self.tests]
+            return [dict(name=list(data.keys())[0], score=list(data.values())[0], text=get_translated_test_description(list(data.keys())[0], lang)) for data in self.tests]
         return []
 
     @property
